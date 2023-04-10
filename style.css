@@ -67,15 +67,30 @@ body{
     right: 700px;
     float: left;
 }
-.taglines{
+/* #mobilePhone:hover{
+    height: 1030px;
+} */
+.taglines p{
     font-size: 30px;
+    color: #003700;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight:700;
+    position: relative;
+    top: -8px;
+    left: 700px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.taglines h3{
+    font-size: 20px;
     color: #003700;
     text-align: center;
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
     position: relative;
-    top: 20px;
-    left: 700px;
-    letter-spacing: 2px;
+    top: 40px;
+    left: 750px;
+    width: 40%;
     display: inline-block;
 }
