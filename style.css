@@ -46,12 +46,36 @@ nav img{
 }
 /* ------------------------------------------------------Body Styling------------------------------------------------- */
 body{
-    background-color: #f0ead3;
+    background-color: #f0ead3 !important;
     font-family: 'Jura', sans-serif;
     font-size: 20px;
-    color: antiquewhite;
+
     text-align: center;
 }
+  #Carenetics{
+    font-size: 130px;
+    color: #003700;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    margin-top: 20px;
+}
 #mobilePhone{
-    height: 600px;
+    height: 1000px;
+    position: absolute;
+    display: inline-block;
+    top: 170px;
+    right: 700px;
+    float: left;
+}
+.taglines{
+    font-size: 30px;
+    color: #003700;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left: 700px;
+    letter-spacing: 2px;
+    display: inline-block;
 }
