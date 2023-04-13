@@ -29,9 +29,50 @@
       <h1 id="Carenetics">CARENETICS</h1>
       <img src="./Images/MobileCrop.png" alt="Mobile" id="mobilePhone" />
       <div class="taglines">
-        <p style="margin-bottom: 0px;">"Empowereing your health</p><br>
-        <p style="margin-bottom: 0px">One smart step at a time"</p><br>
+        <p style="margin-bottom: 0px">
+          <span class="comma">"</span> Empowereing your health
+        </p>
+        <br />
+        <p style="margin-bottom: 0px">
+          &nbsp&nbspOne smart step at a time<span class="comma"> "</span>
+        </p>
+        <br />
+        <!-- <h3>Hey there</h3> -->
+        <h4>
+          Imagine a world where your health is monitored proactively and
+          efficiently by a system that knows <b>YOUR NEEDS</b> even before you
+          do. <br />
+          <br />
+          That’s <b>Carenetics</b> for you - a revolutionary healthcare system
+          powered by cutting-edge AI technology.
+        </h4>
+        <br />
+        <h4>
+          With Carenetics, you can be assured of <br />
+          <ul>
+            <li><b>PREVENTIVE CARE</b></li>
+            <li><b>PERSONALIZED TREATMENT</b></li>
+            <li><b>ROUND-THE-CLOCK MONITORING</b></li>
+            <li><b>ACCURATE DIAGNOSIS</b></li>
+          </ul>
+ 
+          Our system helps you stay ahead of the game by <b>ANALYZING</b> your
+          data in <b>REAL-TIME</b>, and alerting you and your doctor in case of
+          any anomalies.
+        </h4>
       </div>
     </div>
-</body>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.11/dist/gsap.min.js"></script>
+  <script>
+    const carenetics = new SplitType("#Carenetics");
+    gsap.to(".char", {
+      y: 0,
+      stagger: 0.05,
+      duration: 0.1,
+    });
+  </script>
+  <footer></footer>
 </html>
