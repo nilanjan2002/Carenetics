@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Jura:wght@500&family=Montserrat&family=Montserrat+Alternates&family=Roboto+Condensed:wght@300&display=swap');
 
-
+@font-face {
+    font-family: mainContent;
+    src: url('./fonts/OstrichSans-Bold.otf');
+  }
+  @font-face {
+    font-family: feelFree;
+    src: url("./fonts/FeelfreePersonalUseRegular-lg2Bw.ttf");
+  }
+  
 
 *{
     margin: 0;
@@ -57,10 +65,12 @@ body{
 }
   #Carenetics{
     font-size: 130px;
-    color: #003700;
+    color: #003d00;
     text-align: center;
-    font-family: 'Jura', sans-serif;
+    /* font-family: 'Jura', sans-serif; */
+    font-weight: 60;
     margin-top: 20px;
+    letter-spacing: 10px;
 }
 
 /* #Carenetics::after {
@@ -112,27 +122,30 @@ body{
     font-weight:700;
     position: relative;
     top: -8px;
-    left: 700px;
+    left: 800px;
     letter-spacing: 2px;
     display: inline-block;
     /* margin-left:100px ; */
 }
 .taglines h4{
     font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 3px;
     text-align: left;
     position: relative;
     color: #1C6758;
     top: 60px;
     left: 750px;
-    width: 40%;
+    width: 50%;
     display: block;
-    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 100px;
+    /* font-family: mainContent, sans-serif; */
 
 }
 .taglines h4 ul li{ 
     list-style: disc;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 1000;
     color: #1C6758;
     margin-top: 10px;
 
